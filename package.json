@@ -5,6 +5,10 @@
   "bin": {
     "cra-workspaces": "./bin/cra-workspaces.js"
   },
+  "repository": "elv1n/cra-workspaces",
+  "bugs": {
+    "url": "https://github.com/elv1n/cra-workspaces/issues"
+  },
   "files": [
     "bin",
     "scripts",
