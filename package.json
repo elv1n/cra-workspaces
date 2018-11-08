@@ -1,7 +1,7 @@
 {
   "name": "cra-workspaces",
   "version": "1.0.0",
-  "description": "Compiler yarn workspaces as a part of your CRA app",
+  "description": "Compile yarn workspaces as a part of your create-react-app",
   "bin": {
     "cra-workspaces": "./bin/cra-workspaces.js"
   },
