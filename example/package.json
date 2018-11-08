@@ -1,0 +1,12 @@
+{
+  "name": "monorepo",
+  "version": "0.0.1",
+  "description": "CRA2 with monorepo",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "web"
+  ]
+}

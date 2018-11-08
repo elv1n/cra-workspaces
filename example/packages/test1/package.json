@@ -1,0 +1,6 @@
+{
+  "name": "@example/test1",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT"
+}
