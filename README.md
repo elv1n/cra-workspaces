@@ -17,7 +17,7 @@ It runs create-react-app with yarn workspaces without config files or using 'eje
 
 #### 1) Install cra-workspaces
 ```bash
-$ yard add cra-workspaces -D
+$ yarn add cra-workspaces -D
 ```
 
 #### 2) 'Flip' the existing calls to `react-scripts` in `npm` scripts
