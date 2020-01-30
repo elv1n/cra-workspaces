@@ -1,0 +1,17 @@
+{
+  "name": "@example/web",
+  "version": "0.0.1",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@example/test1": "0.0.1",
+    "@example/test2": "0.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "start": "cra-workspaces start",
+    "build": "cra-workspaces build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
