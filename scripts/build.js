@@ -1,2 +1,2 @@
 require('./utils/mockOverriders');
-require('react-app-rewired/scripts/build');
+require('@rescripts/cli/scripts/build');

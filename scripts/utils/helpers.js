@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const findPkg = require('find-pkg');
 const findRoot = require('find-root');
 const globby = require('globby');
 
 const findMonorepoPrivate = appDir => {
 	try {
-		return findRoot(path.join(__dirname), dir => {
+		return findRoot(appDir, dir => {
 			const pkg = path.join(dir, 'package.json');
 			const monoPkgPath = fs.existsSync(pkg);
 			const monoPkg = monoPkgPath && require(pkg);

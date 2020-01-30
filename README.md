@@ -1,5 +1,5 @@
 
-# Run create-react-app 2 with workspaces
+# Run create-react-app 3 with workspaces
 
 [![npm version](https://img.shields.io/npm/v/cra-workspaces.svg)](https://www.npmjs.com/package/cra-workspaces)
 [![npm monthly downloads](https://img.shields.io/npm/dm/cra-workspaces.svg)](https://www.npmjs.com/package/cra-workspaces)
@@ -10,7 +10,7 @@
 
 > By doing this you're breaking the ["guarantees"](https://github.com/facebookincubator/create-react-app/issues/99#issuecomment-234657710) that CRA provides. That is to say you now "own" the configs. **No support** will be provided. Proceed with caution.
 
-The goal of this package is to make a monorepo using [yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) to share common code across a Create React App 2 (CRA).
+The goal of this package is to make a monorepo using [yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) to share common code across a Create React App 2+ (CRA).
 It runs create-react-app with yarn workspaces without config files or using 'eject'
 
 # Getting started
